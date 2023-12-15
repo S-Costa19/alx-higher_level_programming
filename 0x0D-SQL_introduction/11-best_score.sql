@@ -2,5 +2,5 @@
 -- Records are ordered by descending score.
 SELECT COUNT(*)
 FROM `second_table`
-WHERE `score >= 10`
+WHERE `score` >= 10
 ORDER By `score` DESC;
